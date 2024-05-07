@@ -48,6 +48,7 @@ class UIPSOptions:
     computeDistanceCriterion: bool = True
     prefixDownsampledData: str = "downSampledData"
     use_gpu: bool = True
+    num_pdf_bins: int = 20
     data_freq_adjustment: int = 1
     # Subset of data used to adjust the sampling probability to the desired number of samples
     # If nWorkingDataAdjustment < 0, all data with the prescribed frequency is used
